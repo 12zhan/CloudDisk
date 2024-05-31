@@ -6,9 +6,11 @@
 Cloud Disk is a web online disk system developed based on Vue. Compared with traditional network disks, Cloud Disk focuses more on user use and individual user use.
 
 ## Showcase
+
+### Light mode
 ![](./screenshots/img.png)
 
-### night model
+### Dark mode
 ![](./screenshots/night.img.png)
 
 ## Recommended IDE Setup
