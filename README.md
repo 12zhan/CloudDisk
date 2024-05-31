@@ -1,7 +1,7 @@
 # Cloud Disk
 
 
-[![Version](https://img.shields.io/badge/ColudDisk_Version-0.0.1+-blueviolet.svg?style=flat-square&color=90E59A&logoColor=white)](https://github.com/neovim/neovim)
+[![Version](https://img.shields.io/badge/ColudDisk_Version-0.0.1+-blueviolet.svg?style=flat-square&color=90E59A&logoColor=white)]()
 
 Cloud Disk is a web online disk system developed based on Vue. Compared with traditional network disks, Cloud Disk focuses more on user use and individual user use.
 
