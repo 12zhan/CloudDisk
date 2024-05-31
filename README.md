@@ -1,6 +1,6 @@
 # cloud-disk
 
-This template should help get you started developing with Vue 3 in Vite.
+Cloud Disk is a web online disk system developed based on Vue. Compared with traditional network disks, Cloud Disk focuses more on user use and individual user use.
 
 ## Recommended IDE Setup
 
