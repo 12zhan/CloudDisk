@@ -22,9 +22,15 @@
 
     </div>
 
-    <mdui-fab extended style="bottom: 10px;right: 10px;position: fixed;" icon="edit" @click="createFileDialogOpenStatus=true">AddFile</mdui-fab>
+    <mdui-fab extended style="bottom: 10px;right: 10px;position: fixed;" icon="edit" @click="/*createFileDialogOpenStatus=true*/uploadFileDialogOpenStatus=true">AddFile</mdui-fab>
 
     <CreateFileComponents :open="createFileDialogOpenStatus" @cancelClick="createFileDialogOpenStatus = false"></CreateFileComponents>
+
+    <mdui-dialog :open="uploadFileDialogOpenStatus">
+
+      <FileUploadComponents @cancel="uploadFileDialogOpenStatus = false"></FileUploadComponents>
+
+    </mdui-dialog>
 
   </div>
 </template>
@@ -32,7 +38,9 @@
 import FileListItem from "@/components/FileListItem.vue";
 import {ref} from 'vue'
 import CreateFileComponents from "@/components/CreateFileComponents.vue";
+import FileUploadComponents from "@/components/FileUploadComponents.vue";
 
 const createFileDialogOpenStatus = ref(false)
+const uploadFileDialogOpenStatus = ref(false)
 
 </script>

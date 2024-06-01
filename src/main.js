@@ -11,7 +11,6 @@ import 'mdui';
 import { setColorScheme,loadLocale } from 'mdui'
 
 setColorScheme("#9ecaff")
-loadLocale((locale) => import(`mdui/locales/${locale}.js`));
 
 const app = createApp(App)
 

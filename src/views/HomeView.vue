@@ -47,13 +47,10 @@ function openNavigationDrawer() {
               <mdui-list-item rounded icon="text_snippet">文档</mdui-list-item>
             </div>
           </mdui-collapse-item>
-          <mdui-collapse-item>
-            <mdui-list-item slot="header" icon="near_me">Item 2</mdui-list-item>
-            <div style="margin-left: 2.5rem">
-              <mdui-list-item>Item 2 - subitem</mdui-list-item>
-            </div>
-          </mdui-collapse-item>
         </mdui-collapse>
+
+        <mdui-list-item rounded icon="settings">设置</mdui-list-item>
+        <mdui-list-item rounded icon="contrast" @click="($router.push('about'))">关于</mdui-list-item>
       </mdui-list>
     </div>
 
