@@ -2,6 +2,8 @@
 
 import {defineProps} from 'vue'
 
+import axios from 'axios'
+
 defineProps({
   "filename": {
     type: String,
@@ -16,6 +18,10 @@ defineProps({
     required: false
   }
 })
+
+function download(){
+
+}
 
 </script>
 
@@ -52,7 +58,7 @@ defineProps({
         <mdui-menu-item slot="submenu" icon="edit_note">Code Edit</mdui-menu-item>
         <mdui-menu-item slot="submenu" icon="credit_card">Link PDF</mdui-menu-item>
       </mdui-menu-item>
-      <mdui-menu-item icon="download">下载</mdui-menu-item>
+      <mdui-menu-item icon="download" @click="download">下载</mdui-menu-item>
       <mdui-menu-item icon="edit">重命名</mdui-menu-item>
     </mdui-menu>
   </mdui-dropdown>

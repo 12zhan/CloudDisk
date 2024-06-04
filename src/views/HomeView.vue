@@ -33,14 +33,14 @@ function openNavigationDrawer() {
         <mdui-collapse accordion>
           <mdui-collapse-item>
             <mdui-list-item slot="header" icon="insert_drive_file" end rounded
-                            @click="($router.push('.'))">
+                            @click="($router.push('/'))">
               我的文件
 
               <mdui-icon slot="end-icon" name="keyboard_arrow_down"></mdui-icon>
             </mdui-list-item>
             <div style="margin-left: 2.5rem">
               <mdui-list-item rounded icon="video_file"
-                              @click="($router.push('video'))">视频
+                              @click="($router.push('/index/video'))">视频
               </mdui-list-item>
               <mdui-list-item rounded icon="photo">图片</mdui-list-item>
               <mdui-list-item rounded icon="library_music">音乐</mdui-list-item>
@@ -50,7 +50,7 @@ function openNavigationDrawer() {
         </mdui-collapse>
 
         <mdui-list-item rounded icon="settings">设置</mdui-list-item>
-        <mdui-list-item rounded icon="contrast" @click="($router.push('about'))">关于</mdui-list-item>
+        <mdui-list-item rounded icon="contrast" @click="($router.push('index/about'))">关于</mdui-list-item>
       </mdui-list>
     </div>
 
