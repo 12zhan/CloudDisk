@@ -55,7 +55,7 @@ function openNavigationDrawer() {
     </div>
 
 
-    <div style="margin: px 10px;">
+    <div style="margin: 0 10px;">
       <mdui-linear-progress value="30" max="100" style="margin-bottom: 5px;"></mdui-linear-progress>
       <span>已使用1.5 GB，共15 GB</span>
     </div>
@@ -70,7 +70,7 @@ function openNavigationDrawer() {
       <div style="flex-grow: 1"></div>
       <TranslationComponents></TranslationComponents>
       <NightPatternComponents></NightPatternComponents>
-      <LoginAvatarComponents style="margin:px 10px"></LoginAvatarComponents>
+      <LoginAvatarComponents style="margin:0 10px"></LoginAvatarComponents>
 
     </mdui-top-app-bar>
 
