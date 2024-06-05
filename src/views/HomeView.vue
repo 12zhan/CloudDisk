@@ -32,7 +32,7 @@ function openNavigationDrawer() {
       <mdui-list>
         <mdui-collapse accordion>
           <mdui-collapse-item>
-            <mdui-list-item slot="header" icon="insert_drive_file" end rounded
+            <mdui-list-item slot="header" icon="insert_drive_file" rounded
                             @click="($router.push('/'))">
               我的文件
 
@@ -55,7 +55,7 @@ function openNavigationDrawer() {
     </div>
 
 
-    <div style="margin: 0px 10px;">
+    <div style="margin: px 10px;">
       <mdui-linear-progress value="30" max="100" style="margin-bottom: 5px;"></mdui-linear-progress>
       <span>已使用1.5 GB，共15 GB</span>
     </div>
@@ -70,7 +70,7 @@ function openNavigationDrawer() {
       <div style="flex-grow: 1"></div>
       <TranslationComponents></TranslationComponents>
       <NightPatternComponents></NightPatternComponents>
-      <LoginAvatarComponents style="margin:0px 10px"></LoginAvatarComponents>
+      <LoginAvatarComponents style="margin:px 10px"></LoginAvatarComponents>
 
     </mdui-top-app-bar>
 
@@ -81,3 +81,7 @@ function openNavigationDrawer() {
     </div>
   </div>
 </template>
+
+<style scoped>
+
+</style>
